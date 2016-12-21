@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quakes</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <style>
+        html, body{
+            margin:0;
+            padding:0;
+            height:100%;
+        }
+        #map {
+            height:100%;
+        }
+        #notify {
+            position: fixed;
+            top: 20px;
+            right: 50px;
+            border-radius: 20px;
+            background-color: #B5D0D0;
+            color: #627FF6;
+            max-width: 200px;
+            padding: 10px 20px;
+            text-align: center;
+            font-family: Arial;
+            font-size: 12px;
+            transition: opacity 1s ease-out;
+            opacity: 0;
+        }
+        #notify.show {
+           opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<div id="notify"></div>
+<script src="bundle.js"></script>
+</body>
+</html>
