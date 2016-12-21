@@ -7,5 +7,5 @@ Getting started:
 3. npm install
 4. recompile js code ```node_modules/.bin/webpack --config webpack.config.js```
 
-                
+
 
