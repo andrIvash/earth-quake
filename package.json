@@ -1,0 +1,32 @@
+{
+  "name": "angular2-281116",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local-server": "http-server ./typescript/flickr-app-dist -s-1",
+    "build-app": "webpack --progress --colors",
+    "build-app-watch": "webpack --progress --colors --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/leaflet": "^1.0.41",
+    "ts-loader": "^1.3.3",
+    "typescript": "^2.0.10",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.43",
+    "@types/whatwg-fetch": "0.0.32",
+    "http-server": "^0.9.0",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.2",
+    "rxjs": "^5.0.1",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "whatwg-fetch": "^2.0.1"
+  }
+}
